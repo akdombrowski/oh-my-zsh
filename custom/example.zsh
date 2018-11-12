@@ -8,3 +8,5 @@
 # brainstormr=~/Projects/development/planetargon/brainstormr
 # cd $brainstormr
 #
+trunkds=~/directory/trunk/ds/
+cd $trunkds

@@ -112,8 +112,10 @@ else
       source "$ZSH_CUSTOM/$ZSH_THEME.zsh-theme"
     elif [ -f "$ZSH_CUSTOM/themes/$ZSH_THEME.zsh-theme" ]; then
       source "$ZSH_CUSTOM/themes/$ZSH_THEME.zsh-theme"
-    else
+    elif [ -f "$ZSH/themes/$ZSH_THEME.zsh-theme" ]; then
       source "$ZSH/themes/$ZSH_THEME.zsh-theme"
+    else
+      source "$ZSH_THEME"
     fi
   fi
 fi
